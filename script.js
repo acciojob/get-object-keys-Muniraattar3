@@ -1,18 +1,13 @@
-// Define the student object
+// student object in the app
 const student = {
-  name: "John Doe", // A property called name
+  name: "John Doe",
+  age: 25
 };
 
-// Function to get all keys from an object
+// Function to get all keys from the object
 function getKeys(obj) {
-  return Object.keys(obj); // Use Object.keys() to retrieve an array of keys
+  return Object.keys(obj);
 }
 
-// Test the function with the student object
-const keys = getKeys(student);
-
-// Log the output in the console
-console.log("Keys in the object:", keys);
-
-// Display the result on the webpage
-document.body.innerHTML = `<div>Keys in the object: ${keys.join(", ")}</div>`;
+// Display the keys on the webpage
+document.body.innerHTML = `<div id="output">Keys in the object: ${getKeys(student).join(", ")}</div>`;
