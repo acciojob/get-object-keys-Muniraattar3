@@ -1,4 +1,3 @@
-//your JS code here. If required.
 // Define the student object
 const student = {
   name: "John Doe", // A property called name
@@ -12,7 +11,7 @@ function getKeys(obj) {
 // Test the function with the student object
 const keys = getKeys(student);
 
-// Log the output
+// Log the output to the console
 console.log("Keys in the object:", keys);
 
 // Display the result on the webpage
