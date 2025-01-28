@@ -11,7 +11,7 @@ function getKeys(obj) {
 // Test the function with the student object
 const keys = getKeys(student);
 
-// Log the output to the console
+// Log the output in the console
 console.log("Keys in the object:", keys);
 
 // Display the result on the webpage
